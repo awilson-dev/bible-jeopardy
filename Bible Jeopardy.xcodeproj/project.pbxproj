@@ -627,7 +627,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bible Jeopardy/Preview Content\"";
-				DEVELOPMENT_TEAM = 9PU82PN8AU;
+				DEVELOPMENT_TEAM = 6G8ZYP2B49;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.trivia-games";
@@ -640,7 +640,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Allen.Bible-Jeopardy";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.awilson-dev.bible-jeopardy-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -659,7 +659,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bible Jeopardy/Preview Content\"";
-				DEVELOPMENT_TEAM = 9PU82PN8AU;
+				DEVELOPMENT_TEAM = 6G8ZYP2B49;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.trivia-games";
@@ -672,7 +672,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Allen.Bible-Jeopardy";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.awilson-dev.bible-jeopardy-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -694,7 +694,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Mac Bible Jeopardy/Preview Content\"";
-				DEVELOPMENT_TEAM = 9PU82PN8AU;
+				DEVELOPMENT_TEAM = 6G8ZYP2B49;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -706,7 +706,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 2.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Allen.Mac-Bible-Jeopardy";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.awilson-dev.bible-jeopardy-macos";
 				PRODUCT_NAME = "Bible Jeopardy";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -725,7 +725,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Mac Bible Jeopardy/Preview Content\"";
-				DEVELOPMENT_TEAM = 9PU82PN8AU;
+				DEVELOPMENT_TEAM = 6G8ZYP2B49;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -737,7 +737,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 2.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Allen.Mac-Bible-Jeopardy";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.awilson-dev.bible-jeopardy-macos";
 				PRODUCT_NAME = "Bible Jeopardy";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
