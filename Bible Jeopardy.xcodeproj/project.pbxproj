@@ -7,19 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EAC2B2F2B5041340068C01D /* Bible_JeopardyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B2E2B5041340068C01D /* Bible_JeopardyApp.swift */; };
-		0EAC2B312B5041340068C01D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B302B5041340068C01D /* ContentView.swift */; };
-		0EAC2B332B5041350068C01D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B322B5041350068C01D /* Assets.xcassets */; };
 		0EAC2B362B5041350068C01D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B352B5041350068C01D /* Preview Assets.xcassets */; };
+		0EAC2B452B5062610068C01D /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B3D2B5062600068C01D /* GameBoardView.swift */; };
+		0EAC2B462B5062610068C01D /* SelectedCategoriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B3E2B5062600068C01D /* SelectedCategoriesListView.swift */; };
+		0EAC2B472B5062610068C01D /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B3F2B5062610068C01D /* TitleView.swift */; };
+		0EAC2B482B5062610068C01D /* MultiSelectPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B402B5062610068C01D /* MultiSelectPickerView.swift */; };
+		0EAC2B492B5062610068C01D /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B412B5062610068C01D /* GameManager.swift */; };
+		0EAC2B4A2B5062610068C01D /* ManagerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B422B5062610068C01D /* ManagerContentView.swift */; };
+		0EAC2B4B2B5062610068C01D /* ManagerGameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B432B5062610068C01D /* ManagerGameBoardView.swift */; };
+		0EAC2B4C2B5062610068C01D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B442B5062610068C01D /* Assets.xcassets */; };
+		0EAC2B4E2B5062830068C01D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B4D2B5062830068C01D /* ContentView.swift */; };
+		0EAC2B762B5062BB0068C01D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B4F2B5062BB0068C01D /* Question.swift */; };
+		0EAC2B772B5062BB0068C01D /* Hymn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B502B5062BB0068C01D /* Hymn.swift */; };
+		0EAC2B782B5062BB0068C01D /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B512B5062BB0068C01D /* GameSettings.swift */; };
+		0EAC2B792B5062BB0068C01D /* LifeOfJesus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B532B5062BB0068C01D /* LifeOfJesus.swift */; };
+		0EAC2B7A2B5062BB0068C01D /* Ruth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B542B5062BB0068C01D /* Ruth.swift */; };
+		0EAC2B7B2B5062BB0068C01D /* BooksOfTheBible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B552B5062BB0068C01D /* BooksOfTheBible.swift */; };
+		0EAC2B7C2B5062BB0068C01D /* Joseph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B562B5062BB0068C01D /* Joseph.swift */; };
+		0EAC2B7D2B5062BB0068C01D /* BibleHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B572B5062BB0068C01D /* BibleHeroes.swift */; };
+		0EAC2B7E2B5062BB0068C01D /* Miracles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B582B5062BB0068C01D /* Miracles.swift */; };
+		0EAC2B7F2B5062BB0068C01D /* Israel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B592B5062BB0068C01D /* Israel.swift */; };
+		0EAC2B802B5062BC0068C01D /* NameThatHymn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B5A2B5062BB0068C01D /* NameThatHymn.swift */; };
+		0EAC2B812B5062BC0068C01D /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B5B2B5062BB0068C01D /* Places.swift */; };
+		0EAC2B822B5062BC0068C01D /* EndTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B5C2B5062BB0068C01D /* EndTimes.swift */; };
+		0EAC2B832B5062BC0068C01D /* Esther.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B5D2B5062BB0068C01D /* Esther.swift */; };
+		0EAC2B842B5062BC0068C01D /* Exodus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B5E2B5062BB0068C01D /* Exodus.swift */; };
+		0EAC2B852B5062BC0068C01D /* Creation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B5F2B5062BB0068C01D /* Creation.swift */; };
+		0EAC2B862B5062BC0068C01D /* NewTestament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B602B5062BB0068C01D /* NewTestament.swift */; };
+		0EAC2B872B5062BC0068C01D /* BibleQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B612B5062BB0068C01D /* BibleQuotes.swift */; };
+		0EAC2B882B5062BC0068C01D /* DavidAndSolomon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B622B5062BB0068C01D /* DavidAndSolomon.swift */; };
+		0EAC2B892B5062BC0068C01D /* BeforeIsrael.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B632B5062BB0068C01D /* BeforeIsrael.swift */; };
+		0EAC2B8A2B5062BC0068C01D /* AngelsAndDemons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B642B5062BB0068C01D /* AngelsAndDemons.swift */; };
+		0EAC2B8B2B5062BC0068C01D /* Prophesy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B652B5062BB0068C01D /* Prophesy.swift */; };
+		0EAC2B8C2B5062BC0068C01D /* Daniel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B662B5062BB0068C01D /* Daniel.swift */; };
+		0EAC2B8D2B5062BC0068C01D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B672B5062BB0068C01D /* Category.swift */; };
+		0EAC2B8E2B5062BC0068C01D /* holyMightyMajesty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B692B5062BB0068C01D /* holyMightyMajesty.mp3 */; };
+		0EAC2B8F2B5062BC0068C01D /* blestAndHappyIsTheMan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B6A2B5062BB0068C01D /* blestAndHappyIsTheMan.mp3 */; };
+		0EAC2B902B5062BC0068C01D /* howGoodAndHowPleasant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B6B2B5062BB0068C01D /* howGoodAndHowPleasant.mp3 */; };
+		0EAC2B912B5062BC0068C01D /* byTheWatersOfBabylon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B6C2B5062BB0068C01D /* byTheWatersOfBabylon.mp3 */; };
+		0EAC2B922B5062BC0068C01D /* byThisShallAllMenKnow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B6D2B5062BB0068C01D /* byThisShallAllMenKnow.mp3 */; };
+		0EAC2B932B5062BC0068C01D /* blowTheHornLetZionHear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B6E2B5062BB0068C01D /* blowTheHornLetZionHear.mp3 */; };
+		0EAC2B942B5062BC0068C01D /* howLovelyAreThyDwellings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B6F2B5062BB0068C01D /* howLovelyAreThyDwellings.mp3 */; };
+		0EAC2B952B5062BC0068C01D /* godSpeaksToUs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B702B5062BB0068C01D /* godSpeaksToUs.mp3 */; };
+		0EAC2B962B5062BC0068C01D /* itWontBeLongNow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B712B5062BB0068C01D /* itWontBeLongNow.mp3 */; };
+		0EAC2B972B5062BC0068C01D /* battleHymnOfTheRepublic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B722B5062BB0068C01D /* battleHymnOfTheRepublic.mp3 */; };
+		0EAC2B982B5062BC0068C01D /* theLordIsMyShepherd.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B732B5062BB0068C01D /* theLordIsMyShepherd.mp3 */; };
+		0EAC2B992B5062BC0068C01D /* achievementChime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B752B5062BB0068C01D /* achievementChime.mp3 */; };
+		0EAC2B9B2B5062EB0068C01D /* Bible_JeopardyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B9A2B5062EB0068C01D /* Bible_JeopardyApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0EAC2B2B2B5041340068C01D /* Bible Jeopardy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bible Jeopardy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EAC2B2E2B5041340068C01D /* Bible_JeopardyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bible_JeopardyApp.swift; sourceTree = "<group>"; };
-		0EAC2B302B5041340068C01D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0EAC2B322B5041350068C01D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EAC2B352B5041350068C01D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0EAC2B372B5041350068C01D /* Bible_Jeopardy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bible_Jeopardy.entitlements; sourceTree = "<group>"; };
+		0EAC2B3D2B5062600068C01D /* GameBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
+		0EAC2B3E2B5062600068C01D /* SelectedCategoriesListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedCategoriesListView.swift; sourceTree = "<group>"; };
+		0EAC2B3F2B5062610068C01D /* TitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		0EAC2B402B5062610068C01D /* MultiSelectPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiSelectPickerView.swift; sourceTree = "<group>"; };
+		0EAC2B412B5062610068C01D /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		0EAC2B422B5062610068C01D /* ManagerContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerContentView.swift; sourceTree = "<group>"; };
+		0EAC2B432B5062610068C01D /* ManagerGameBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerGameBoardView.swift; sourceTree = "<group>"; };
+		0EAC2B442B5062610068C01D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Bible Jeopardy (Old)/Mac Bible Jeopardy/Assets.xcassets"; sourceTree = "<group>"; };
+		0EAC2B4D2B5062830068C01D /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0EAC2B4F2B5062BB0068C01D /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		0EAC2B502B5062BB0068C01D /* Hymn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hymn.swift; sourceTree = "<group>"; };
+		0EAC2B512B5062BB0068C01D /* GameSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		0EAC2B532B5062BB0068C01D /* LifeOfJesus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeOfJesus.swift; sourceTree = "<group>"; };
+		0EAC2B542B5062BB0068C01D /* Ruth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ruth.swift; sourceTree = "<group>"; };
+		0EAC2B552B5062BB0068C01D /* BooksOfTheBible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksOfTheBible.swift; sourceTree = "<group>"; };
+		0EAC2B562B5062BB0068C01D /* Joseph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joseph.swift; sourceTree = "<group>"; };
+		0EAC2B572B5062BB0068C01D /* BibleHeroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleHeroes.swift; sourceTree = "<group>"; };
+		0EAC2B582B5062BB0068C01D /* Miracles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Miracles.swift; sourceTree = "<group>"; };
+		0EAC2B592B5062BB0068C01D /* Israel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Israel.swift; sourceTree = "<group>"; };
+		0EAC2B5A2B5062BB0068C01D /* NameThatHymn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameThatHymn.swift; sourceTree = "<group>"; };
+		0EAC2B5B2B5062BB0068C01D /* Places.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		0EAC2B5C2B5062BB0068C01D /* EndTimes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndTimes.swift; sourceTree = "<group>"; };
+		0EAC2B5D2B5062BB0068C01D /* Esther.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Esther.swift; sourceTree = "<group>"; };
+		0EAC2B5E2B5062BB0068C01D /* Exodus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exodus.swift; sourceTree = "<group>"; };
+		0EAC2B5F2B5062BB0068C01D /* Creation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Creation.swift; sourceTree = "<group>"; };
+		0EAC2B602B5062BB0068C01D /* NewTestament.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTestament.swift; sourceTree = "<group>"; };
+		0EAC2B612B5062BB0068C01D /* BibleQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleQuotes.swift; sourceTree = "<group>"; };
+		0EAC2B622B5062BB0068C01D /* DavidAndSolomon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DavidAndSolomon.swift; sourceTree = "<group>"; };
+		0EAC2B632B5062BB0068C01D /* BeforeIsrael.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeforeIsrael.swift; sourceTree = "<group>"; };
+		0EAC2B642B5062BB0068C01D /* AngelsAndDemons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngelsAndDemons.swift; sourceTree = "<group>"; };
+		0EAC2B652B5062BB0068C01D /* Prophesy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prophesy.swift; sourceTree = "<group>"; };
+		0EAC2B662B5062BB0068C01D /* Daniel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Daniel.swift; sourceTree = "<group>"; };
+		0EAC2B672B5062BB0068C01D /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		0EAC2B692B5062BB0068C01D /* holyMightyMajesty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = holyMightyMajesty.mp3; sourceTree = "<group>"; };
+		0EAC2B6A2B5062BB0068C01D /* blestAndHappyIsTheMan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blestAndHappyIsTheMan.mp3; sourceTree = "<group>"; };
+		0EAC2B6B2B5062BB0068C01D /* howGoodAndHowPleasant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = howGoodAndHowPleasant.mp3; sourceTree = "<group>"; };
+		0EAC2B6C2B5062BB0068C01D /* byTheWatersOfBabylon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = byTheWatersOfBabylon.mp3; sourceTree = "<group>"; };
+		0EAC2B6D2B5062BB0068C01D /* byThisShallAllMenKnow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = byThisShallAllMenKnow.mp3; sourceTree = "<group>"; };
+		0EAC2B6E2B5062BB0068C01D /* blowTheHornLetZionHear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blowTheHornLetZionHear.mp3; sourceTree = "<group>"; };
+		0EAC2B6F2B5062BB0068C01D /* howLovelyAreThyDwellings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = howLovelyAreThyDwellings.mp3; sourceTree = "<group>"; };
+		0EAC2B702B5062BB0068C01D /* godSpeaksToUs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = godSpeaksToUs.mp3; sourceTree = "<group>"; };
+		0EAC2B712B5062BB0068C01D /* itWontBeLongNow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = itWontBeLongNow.mp3; sourceTree = "<group>"; };
+		0EAC2B722B5062BB0068C01D /* battleHymnOfTheRepublic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = battleHymnOfTheRepublic.mp3; sourceTree = "<group>"; };
+		0EAC2B732B5062BB0068C01D /* theLordIsMyShepherd.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = theLordIsMyShepherd.mp3; sourceTree = "<group>"; };
+		0EAC2B752B5062BB0068C01D /* achievementChime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = achievementChime.mp3; sourceTree = "<group>"; };
+		0EAC2B9A2B5062EB0068C01D /* Bible_JeopardyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bible_JeopardyApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +138,14 @@
 		0EAC2B2D2B5041340068C01D /* Bible Jeopardy */ = {
 			isa = PBXGroup;
 			children = (
-				0EAC2B2E2B5041340068C01D /* Bible_JeopardyApp.swift */,
-				0EAC2B302B5041340068C01D /* ContentView.swift */,
-				0EAC2B322B5041350068C01D /* Assets.xcassets */,
+				0EAC2B9A2B5062EB0068C01D /* Bible_JeopardyApp.swift */,
+				0EAC2B9C2B50638E0068C01D /* Views */,
+				0EAC2B9E2B5063AF0068C01D /* ViewModels */,
+				0EAC2B9D2B5063A70068C01D /* Models */,
+				0EAC2B522B5062BB0068C01D /* Categories */,
+				0EAC2B682B5062BB0068C01D /* Hymns */,
+				0EAC2B742B5062BB0068C01D /* Sound Effects */,
+				0EAC2B442B5062610068C01D /* Assets.xcassets */,
 				0EAC2B372B5041350068C01D /* Bible_Jeopardy.entitlements */,
 				0EAC2B342B5041350068C01D /* Preview Content */,
 			);
@@ -67,6 +158,92 @@
 				0EAC2B352B5041350068C01D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0EAC2B522B5062BB0068C01D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0EAC2B532B5062BB0068C01D /* LifeOfJesus.swift */,
+				0EAC2B542B5062BB0068C01D /* Ruth.swift */,
+				0EAC2B552B5062BB0068C01D /* BooksOfTheBible.swift */,
+				0EAC2B562B5062BB0068C01D /* Joseph.swift */,
+				0EAC2B572B5062BB0068C01D /* BibleHeroes.swift */,
+				0EAC2B582B5062BB0068C01D /* Miracles.swift */,
+				0EAC2B592B5062BB0068C01D /* Israel.swift */,
+				0EAC2B5A2B5062BB0068C01D /* NameThatHymn.swift */,
+				0EAC2B5B2B5062BB0068C01D /* Places.swift */,
+				0EAC2B5C2B5062BB0068C01D /* EndTimes.swift */,
+				0EAC2B5D2B5062BB0068C01D /* Esther.swift */,
+				0EAC2B5E2B5062BB0068C01D /* Exodus.swift */,
+				0EAC2B5F2B5062BB0068C01D /* Creation.swift */,
+				0EAC2B602B5062BB0068C01D /* NewTestament.swift */,
+				0EAC2B612B5062BB0068C01D /* BibleQuotes.swift */,
+				0EAC2B622B5062BB0068C01D /* DavidAndSolomon.swift */,
+				0EAC2B632B5062BB0068C01D /* BeforeIsrael.swift */,
+				0EAC2B642B5062BB0068C01D /* AngelsAndDemons.swift */,
+				0EAC2B652B5062BB0068C01D /* Prophesy.swift */,
+				0EAC2B662B5062BB0068C01D /* Daniel.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		0EAC2B682B5062BB0068C01D /* Hymns */ = {
+			isa = PBXGroup;
+			children = (
+				0EAC2B692B5062BB0068C01D /* holyMightyMajesty.mp3 */,
+				0EAC2B6A2B5062BB0068C01D /* blestAndHappyIsTheMan.mp3 */,
+				0EAC2B6B2B5062BB0068C01D /* howGoodAndHowPleasant.mp3 */,
+				0EAC2B6C2B5062BB0068C01D /* byTheWatersOfBabylon.mp3 */,
+				0EAC2B6D2B5062BB0068C01D /* byThisShallAllMenKnow.mp3 */,
+				0EAC2B6E2B5062BB0068C01D /* blowTheHornLetZionHear.mp3 */,
+				0EAC2B6F2B5062BB0068C01D /* howLovelyAreThyDwellings.mp3 */,
+				0EAC2B702B5062BB0068C01D /* godSpeaksToUs.mp3 */,
+				0EAC2B712B5062BB0068C01D /* itWontBeLongNow.mp3 */,
+				0EAC2B722B5062BB0068C01D /* battleHymnOfTheRepublic.mp3 */,
+				0EAC2B732B5062BB0068C01D /* theLordIsMyShepherd.mp3 */,
+			);
+			path = Hymns;
+			sourceTree = "<group>";
+		};
+		0EAC2B742B5062BB0068C01D /* Sound Effects */ = {
+			isa = PBXGroup;
+			children = (
+				0EAC2B752B5062BB0068C01D /* achievementChime.mp3 */,
+			);
+			path = "Sound Effects";
+			sourceTree = "<group>";
+		};
+		0EAC2B9C2B50638E0068C01D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0EAC2B4D2B5062830068C01D /* ContentView.swift */,
+				0EAC2B3D2B5062600068C01D /* GameBoardView.swift */,
+				0EAC2B422B5062610068C01D /* ManagerContentView.swift */,
+				0EAC2B432B5062610068C01D /* ManagerGameBoardView.swift */,
+				0EAC2B402B5062610068C01D /* MultiSelectPickerView.swift */,
+				0EAC2B3E2B5062600068C01D /* SelectedCategoriesListView.swift */,
+				0EAC2B3F2B5062610068C01D /* TitleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0EAC2B9D2B5063A70068C01D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0EAC2B672B5062BB0068C01D /* Category.swift */,
+				0EAC2B4F2B5062BB0068C01D /* Question.swift */,
+				0EAC2B502B5062BB0068C01D /* Hymn.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0EAC2B9E2B5063AF0068C01D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0EAC2B412B5062610068C01D /* GameManager.swift */,
+				0EAC2B512B5062BB0068C01D /* GameSettings.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +305,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EAC2B362B5041350068C01D /* Preview Assets.xcassets in Resources */,
-				0EAC2B332B5041350068C01D /* Assets.xcassets in Resources */,
+				0EAC2B952B5062BC0068C01D /* godSpeaksToUs.mp3 in Resources */,
+				0EAC2B932B5062BC0068C01D /* blowTheHornLetZionHear.mp3 in Resources */,
+				0EAC2B8E2B5062BC0068C01D /* holyMightyMajesty.mp3 in Resources */,
+				0EAC2B962B5062BC0068C01D /* itWontBeLongNow.mp3 in Resources */,
+				0EAC2B912B5062BC0068C01D /* byTheWatersOfBabylon.mp3 in Resources */,
+				0EAC2B902B5062BC0068C01D /* howGoodAndHowPleasant.mp3 in Resources */,
+				0EAC2B942B5062BC0068C01D /* howLovelyAreThyDwellings.mp3 in Resources */,
+				0EAC2B4C2B5062610068C01D /* Assets.xcassets in Resources */,
+				0EAC2B972B5062BC0068C01D /* battleHymnOfTheRepublic.mp3 in Resources */,
+				0EAC2B922B5062BC0068C01D /* byThisShallAllMenKnow.mp3 in Resources */,
+				0EAC2B992B5062BC0068C01D /* achievementChime.mp3 in Resources */,
+				0EAC2B982B5062BC0068C01D /* theLordIsMyShepherd.mp3 in Resources */,
+				0EAC2B8F2B5062BC0068C01D /* blestAndHappyIsTheMan.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +328,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EAC2B312B5041340068C01D /* ContentView.swift in Sources */,
-				0EAC2B2F2B5041340068C01D /* Bible_JeopardyApp.swift in Sources */,
+				0EAC2B7C2B5062BB0068C01D /* Joseph.swift in Sources */,
+				0EAC2B7D2B5062BB0068C01D /* BibleHeroes.swift in Sources */,
+				0EAC2B8A2B5062BC0068C01D /* AngelsAndDemons.swift in Sources */,
+				0EAC2B772B5062BB0068C01D /* Hymn.swift in Sources */,
+				0EAC2B462B5062610068C01D /* SelectedCategoriesListView.swift in Sources */,
+				0EAC2B7B2B5062BB0068C01D /* BooksOfTheBible.swift in Sources */,
+				0EAC2B882B5062BC0068C01D /* DavidAndSolomon.swift in Sources */,
+				0EAC2B492B5062610068C01D /* GameManager.swift in Sources */,
+				0EAC2B7F2B5062BB0068C01D /* Israel.swift in Sources */,
+				0EAC2B872B5062BC0068C01D /* BibleQuotes.swift in Sources */,
+				0EAC2B822B5062BC0068C01D /* EndTimes.swift in Sources */,
+				0EAC2B4A2B5062610068C01D /* ManagerContentView.swift in Sources */,
+				0EAC2B852B5062BC0068C01D /* Creation.swift in Sources */,
+				0EAC2B8B2B5062BC0068C01D /* Prophesy.swift in Sources */,
+				0EAC2B452B5062610068C01D /* GameBoardView.swift in Sources */,
+				0EAC2B762B5062BB0068C01D /* Question.swift in Sources */,
+				0EAC2B832B5062BC0068C01D /* Esther.swift in Sources */,
+				0EAC2B802B5062BC0068C01D /* NameThatHymn.swift in Sources */,
+				0EAC2B792B5062BB0068C01D /* LifeOfJesus.swift in Sources */,
+				0EAC2B8C2B5062BC0068C01D /* Daniel.swift in Sources */,
+				0EAC2B862B5062BC0068C01D /* NewTestament.swift in Sources */,
+				0EAC2B7A2B5062BB0068C01D /* Ruth.swift in Sources */,
+				0EAC2B4E2B5062830068C01D /* ContentView.swift in Sources */,
+				0EAC2B7E2B5062BB0068C01D /* Miracles.swift in Sources */,
+				0EAC2B782B5062BB0068C01D /* GameSettings.swift in Sources */,
+				0EAC2B812B5062BC0068C01D /* Places.swift in Sources */,
+				0EAC2B482B5062610068C01D /* MultiSelectPickerView.swift in Sources */,
+				0EAC2B892B5062BC0068C01D /* BeforeIsrael.swift in Sources */,
+				0EAC2B472B5062610068C01D /* TitleView.swift in Sources */,
+				0EAC2B9B2B5062EB0068C01D /* Bible_JeopardyApp.swift in Sources */,
+				0EAC2B4B2B5062610068C01D /* ManagerGameBoardView.swift in Sources */,
+				0EAC2B842B5062BC0068C01D /* Exodus.swift in Sources */,
+				0EAC2B8D2B5062BC0068C01D /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
