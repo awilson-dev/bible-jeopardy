@@ -118,5 +118,5 @@ enum Categories: Category, Identifiable, CaseIterable {
     
     var id: Self { self }
     
-    static let newCategories: [Categories] = [.ruth, .esther, .joseph, .daniel]
+    static let newCategories: [Categories] = []
 }

@@ -1,8 +1,8 @@
 //
 //  TitleView.swift
-//  Mac Bible Jeopardy
+//  Bible Jeopardy (iPad)
 //
-//  Created by Allen Wilson on 7/25/22.
+//  Created by Allen Wilson on 3/31/24.
 //
 
 import SwiftUI
@@ -16,7 +16,7 @@ struct TitleView: View {
                 Text("BIBLE")
                     .font(.custom("Arial Rounded MT Bold", size: 60))
                     .bold()
-                    .foregroundColor(Color(red: 165 / 255, green: 224 / 255, blue: 251 / 255))
+                    .foregroundStyle(Color.cyan)
                 
                 Spacer()
             }
@@ -25,7 +25,7 @@ struct TitleView: View {
                 Text("JEOPARDY")
                     .font(.custom("System Font Bold", size: 80))
                     .bold()
-                    .foregroundColor(Color(red: 248 / 255, green: 218 / 255, blue: 133 / 255))
+                    .foregroundStyle(Color.yellow)
                     .padding(.top, 9)
                 
                 Spacer()

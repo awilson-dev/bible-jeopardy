@@ -1,17 +1,18 @@
 //
-//  ManagerContentView.swift
-//  Mac Bible Jeopardy
+//  ContentView.swift
+//  Bible Jeopardy (iPad)
 //
-//  Created by Allen Wilson on 7/26/23.
+//  Created by Allen Wilson on 3/31/24.
 //
 
 import SwiftUI
 
-struct ManagerContentView: View {
+struct ContentView: View {
     @StateObject var manager = GameManager.shared
     @StateObject var settings = GameSettings.shared
     
     @State var reset = false
+    @State var newGame = false
     
     var body: some View {
         ZStack {
@@ -65,7 +66,7 @@ struct ManagerContentView: View {
                             }, label: {
                                 ZStack {
                                     RoundedRectangle(cornerRadius: 10)
-                                        .foregroundColor(Color(red: 11 / 255, green: 37 / 255, blue: 191 / 255))
+                                        .foregroundStyle(Color.accentColor)
                                         .frame(width: 150, height: 50)
                                     
                                     Text("Start Game")
@@ -132,18 +133,16 @@ struct ManagerContentView: View {
                     
                     Spacer()
                     
-                    ManagerGameBoardView(categories: manager.currentCategories)
+                    GameBoardView(categories: manager.currentCategories)
                     
                     Spacer()
                     
                     Button(action: {
-                        SoundManager.shared.stopSmoothly(duration: 0.5)
-                        manager.settingUpNewGame = true
-                        manager.reset()
+                        newGame = true
                     }, label: {
                         ZStack {
                             RoundedRectangle(cornerRadius: 10)
-                                .foregroundColor(Color(red: 11 / 255, green: 37 / 255, blue: 191 / 255))
+                                .foregroundStyle(Color.accentColor)
                                 .frame(width: 150, height: 50)
                             
                             Text("New Game")
@@ -155,6 +154,19 @@ struct ManagerContentView: View {
                     .buttonStyle(.plain)
                 }
                 .padding()
+                .alert("This will reset the game board for a new round. Do you want to continue?", isPresented: $newGame) {
+                    Button("New Game") {
+                        SoundManager.shared.stopSmoothly(duration: 0.5)
+                        manager.settingUpNewGame = true
+                        manager.reset()
+                    }
+                    .keyboardShortcut(.defaultAction)
+                    
+                    Button("Cancel") {
+                        newGame = false
+                    }
+                    .keyboardShortcut(.cancelAction)
+                }
             }
         }
         .frame(minWidth: 700, minHeight: 620)
@@ -162,6 +174,5 @@ struct ManagerContentView: View {
 }
 
 #Preview {
-    ManagerContentView()
-        .frame(width: 1000, height: 700)
+    ContentView()
 }

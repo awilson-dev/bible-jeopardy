@@ -133,13 +133,11 @@ struct GameBoardView: View {
                 .aspectRatio(3 / 2, contentMode: .fit)
                 .padding()
             })
-                .buttonStyle(.plain)
+            .buttonStyle(.plain)
         }
     }
 }
 
-struct GameBoardView_Previews: PreviewProvider {
-    static var previews: some View {
-        GameBoardView(categories: [.angelsAndDemons1, .beforeIsrael, .bibleQuotes, .booksOfTheBible1, .creation, .davidAndSolomon])
-    }
+#Preview {
+    GameBoardView(categories: [.angelsAndDemons1, .beforeIsrael, .bibleQuotes, .booksOfTheBible1, .creation, .davidAndSolomon])
 }

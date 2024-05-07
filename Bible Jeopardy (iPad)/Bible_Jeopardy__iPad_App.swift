@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct Bible_Jeopardy__iPad_App: App {
+    @StateObject var settings = GameSettings.shared
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

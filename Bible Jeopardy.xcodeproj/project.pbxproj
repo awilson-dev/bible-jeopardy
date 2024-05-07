@@ -7,6 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0340502BB9E2AE00BAEEB5 /* holyMightyMajesty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B692B5062BB0068C01D /* holyMightyMajesty.mp3 */; };
+		0E0340512BB9E2AE00BAEEB5 /* blestAndHappyIsTheMan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B6A2B5062BB0068C01D /* blestAndHappyIsTheMan.mp3 */; };
+		0E0340522BB9E2AE00BAEEB5 /* battleHymnOfTheRepublic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B722B5062BB0068C01D /* battleHymnOfTheRepublic.mp3 */; };
+		0E0340532BB9E2AE00BAEEB5 /* howLovelyAreThyDwellings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B6F2B5062BB0068C01D /* howLovelyAreThyDwellings.mp3 */; };
+		0E0340542BB9E2AE00BAEEB5 /* achievementChime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B752B5062BB0068C01D /* achievementChime.mp3 */; };
+		0E0340552BB9E2AE00BAEEB5 /* howGoodAndHowPleasant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B6B2B5062BB0068C01D /* howGoodAndHowPleasant.mp3 */; };
+		0E0340562BB9E2AE00BAEEB5 /* byThisShallAllMenKnow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B6D2B5062BB0068C01D /* byThisShallAllMenKnow.mp3 */; };
+		0E0340572BB9E2AE00BAEEB5 /* blowTheHornLetZionHear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B6E2B5062BB0068C01D /* blowTheHornLetZionHear.mp3 */; };
+		0E0340582BB9E2AE00BAEEB5 /* theLordIsMyShepherd.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B732B5062BB0068C01D /* theLordIsMyShepherd.mp3 */; };
+		0E0340592BB9E2AE00BAEEB5 /* godSpeaksToUs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B702B5062BB0068C01D /* godSpeaksToUs.mp3 */; };
+		0E03405A2BB9E2AE00BAEEB5 /* itWontBeLongNow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B712B5062BB0068C01D /* itWontBeLongNow.mp3 */; };
+		0E03405B2BB9E2AE00BAEEB5 /* byTheWatersOfBabylon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B6C2B5062BB0068C01D /* byTheWatersOfBabylon.mp3 */; };
+		0E03405C2BB9E2AE00BAEEB5 /* Hymn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B502B5062BB0068C01D /* Hymn.swift */; };
+		0E03405D2BB9E2AE00BAEEB5 /* BooksOfTheBible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B552B5062BB0068C01D /* BooksOfTheBible.swift */; };
+		0E03405E2BB9E2AE00BAEEB5 /* Miracles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B582B5062BB0068C01D /* Miracles.swift */; };
+		0E03405F2BB9E2AE00BAEEB5 /* Israel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B592B5062BB0068C01D /* Israel.swift */; };
+		0E0340602BB9E2AE00BAEEB5 /* NewTestament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B602B5062BB0068C01D /* NewTestament.swift */; };
+		0E0340612BB9E2AE00BAEEB5 /* DavidAndSolomon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B622B5062BB0068C01D /* DavidAndSolomon.swift */; };
+		0E0340622BB9E2AE00BAEEB5 /* Joseph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B562B5062BB0068C01D /* Joseph.swift */; };
+		0E0340632BB9E2AE00BAEEB5 /* Ruth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B542B5062BB0068C01D /* Ruth.swift */; };
+		0E0340642BB9E2AE00BAEEB5 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B5B2B5062BB0068C01D /* Places.swift */; };
+		0E0340652BB9E2AE00BAEEB5 /* Creation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B5F2B5062BB0068C01D /* Creation.swift */; };
+		0E0340662BB9E2AE00BAEEB5 /* BibleHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B572B5062BB0068C01D /* BibleHeroes.swift */; };
+		0E0340672BB9E2AE00BAEEB5 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B672B5062BB0068C01D /* Category.swift */; };
+		0E0340682BB9E2AE00BAEEB5 /* EndTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B5C2B5062BB0068C01D /* EndTimes.swift */; };
+		0E0340692BB9E2AE00BAEEB5 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B412B5062610068C01D /* GameManager.swift */; };
+		0E03406A2BB9E2AE00BAEEB5 /* NameThatHymn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B5A2B5062BB0068C01D /* NameThatHymn.swift */; };
+		0E03406B2BB9E2AE00BAEEB5 /* BeforeIsrael.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B632B5062BB0068C01D /* BeforeIsrael.swift */; };
+		0E03406C2BB9E2AE00BAEEB5 /* AngelsAndDemons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B642B5062BB0068C01D /* AngelsAndDemons.swift */; };
+		0E03406D2BB9E2AE00BAEEB5 /* Daniel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B662B5062BB0068C01D /* Daniel.swift */; };
+		0E03406E2BB9E2AE00BAEEB5 /* Exodus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B5E2B5062BB0068C01D /* Exodus.swift */; };
+		0E03406F2BB9E2AE00BAEEB5 /* BibleQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B612B5062BB0068C01D /* BibleQuotes.swift */; };
+		0E0340702BB9E2AE00BAEEB5 /* Prophesy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B652B5062BB0068C01D /* Prophesy.swift */; };
+		0E0340712BB9E2AE00BAEEB5 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B4F2B5062BB0068C01D /* Question.swift */; };
+		0E0340722BB9E2AE00BAEEB5 /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B512B5062BB0068C01D /* GameSettings.swift */; };
+		0E0340732BB9E2AE00BAEEB5 /* LifeOfJesus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B532B5062BB0068C01D /* LifeOfJesus.swift */; };
+		0E0340742BB9E2AE00BAEEB5 /* Esther.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B5D2B5062BB0068C01D /* Esther.swift */; };
+		0E0340782BB9E3CC00BAEEB5 /* MultiSelectPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0340772BB9E3CC00BAEEB5 /* MultiSelectPickerView.swift */; };
+		0E03407C2BB9E41400BAEEB5 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E03407B2BB9E41400BAEEB5 /* TitleView.swift */; };
+		0E03407E2BB9E52400BAEEB5 /* ManagerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E03407D2BB9E52400BAEEB5 /* ManagerContentView.swift */; };
+		0E0340802BB9E54700BAEEB5 /* ManagerGameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E03407F2BB9E54700BAEEB5 /* ManagerGameBoardView.swift */; };
 		0EAC2B362B5041350068C01D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B352B5041350068C01D /* Preview Assets.xcassets */; };
 		0EAC2B452B5062610068C01D /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B3D2B5062600068C01D /* GameBoardView.swift */; };
 		0EAC2B462B5062610068C01D /* SelectedCategoriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B3E2B5062600068C01D /* SelectedCategoriesListView.swift */; };
@@ -55,12 +96,15 @@
 		0EAC2B992B5062BC0068C01D /* achievementChime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B752B5062BB0068C01D /* achievementChime.mp3 */; };
 		0EAC2B9B2B5062EB0068C01D /* Bible_JeopardyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B9A2B5062EB0068C01D /* Bible_JeopardyApp.swift */; };
 		0EDC194E2BADF229009DC360 /* Bible_Jeopardy__iPad_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDC194D2BADF229009DC360 /* Bible_Jeopardy__iPad_App.swift */; };
-		0EDC19502BADF229009DC360 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDC194F2BADF229009DC360 /* ContentView.swift */; };
 		0EDC19522BADF22A009DC360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDC19512BADF22A009DC360 /* Assets.xcassets */; };
 		0EDC19552BADF22A009DC360 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDC19542BADF22A009DC360 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E0340772BB9E3CC00BAEEB5 /* MultiSelectPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectPickerView.swift; sourceTree = "<group>"; };
+		0E03407B2BB9E41400BAEEB5 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		0E03407D2BB9E52400BAEEB5 /* ManagerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerContentView.swift; sourceTree = "<group>"; };
+		0E03407F2BB9E54700BAEEB5 /* ManagerGameBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerGameBoardView.swift; sourceTree = "<group>"; };
 		0EAC2B2B2B5041340068C01D /* Bible Jeopardy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bible Jeopardy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EAC2B352B5041350068C01D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0EAC2B372B5041350068C01D /* Bible_Jeopardy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bible_Jeopardy.entitlements; sourceTree = "<group>"; };
@@ -112,7 +156,6 @@
 		0EAC2B9A2B5062EB0068C01D /* Bible_JeopardyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bible_JeopardyApp.swift; sourceTree = "<group>"; };
 		0EDC194B2BADF229009DC360 /* Bible Jeopardy (iPad).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bible Jeopardy (iPad).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EDC194D2BADF229009DC360 /* Bible_Jeopardy__iPad_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bible_Jeopardy__iPad_App.swift; sourceTree = "<group>"; };
-		0EDC194F2BADF229009DC360 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0EDC19512BADF22A009DC360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EDC19542BADF22A009DC360 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -268,7 +311,10 @@
 			isa = PBXGroup;
 			children = (
 				0EDC194D2BADF229009DC360 /* Bible_Jeopardy__iPad_App.swift */,
-				0EDC194F2BADF229009DC360 /* ContentView.swift */,
+				0E03407D2BB9E52400BAEEB5 /* ManagerContentView.swift */,
+				0E03407F2BB9E54700BAEEB5 /* ManagerGameBoardView.swift */,
+				0E0340772BB9E3CC00BAEEB5 /* MultiSelectPickerView.swift */,
+				0E03407B2BB9E41400BAEEB5 /* TitleView.swift */,
 				0EDC19512BADF22A009DC360 /* Assets.xcassets */,
 				0EDC19532BADF22A009DC360 /* Preview Content */,
 			);
@@ -328,7 +374,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					0EAC2B2A2B5041340068C01D = {
 						CreatedOnToolsVersion = 15.2;
@@ -384,6 +430,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EDC19552BADF22A009DC360 /* Preview Assets.xcassets in Resources */,
+				0E0340502BB9E2AE00BAEEB5 /* holyMightyMajesty.mp3 in Resources */,
+				0E0340512BB9E2AE00BAEEB5 /* blestAndHappyIsTheMan.mp3 in Resources */,
+				0E0340522BB9E2AE00BAEEB5 /* battleHymnOfTheRepublic.mp3 in Resources */,
+				0E0340532BB9E2AE00BAEEB5 /* howLovelyAreThyDwellings.mp3 in Resources */,
+				0E0340542BB9E2AE00BAEEB5 /* achievementChime.mp3 in Resources */,
+				0E0340552BB9E2AE00BAEEB5 /* howGoodAndHowPleasant.mp3 in Resources */,
+				0E0340562BB9E2AE00BAEEB5 /* byThisShallAllMenKnow.mp3 in Resources */,
+				0E0340572BB9E2AE00BAEEB5 /* blowTheHornLetZionHear.mp3 in Resources */,
+				0E0340582BB9E2AE00BAEEB5 /* theLordIsMyShepherd.mp3 in Resources */,
+				0E0340592BB9E2AE00BAEEB5 /* godSpeaksToUs.mp3 in Resources */,
+				0E03405A2BB9E2AE00BAEEB5 /* itWontBeLongNow.mp3 in Resources */,
+				0E03405B2BB9E2AE00BAEEB5 /* byTheWatersOfBabylon.mp3 in Resources */,
 				0EDC19522BADF22A009DC360 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,7 +493,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EDC19502BADF229009DC360 /* ContentView.swift in Sources */,
+				0E03405C2BB9E2AE00BAEEB5 /* Hymn.swift in Sources */,
+				0E03405D2BB9E2AE00BAEEB5 /* BooksOfTheBible.swift in Sources */,
+				0E03405E2BB9E2AE00BAEEB5 /* Miracles.swift in Sources */,
+				0E03407E2BB9E52400BAEEB5 /* ManagerContentView.swift in Sources */,
+				0E03405F2BB9E2AE00BAEEB5 /* Israel.swift in Sources */,
+				0E03407C2BB9E41400BAEEB5 /* TitleView.swift in Sources */,
+				0E0340602BB9E2AE00BAEEB5 /* NewTestament.swift in Sources */,
+				0E0340612BB9E2AE00BAEEB5 /* DavidAndSolomon.swift in Sources */,
+				0E0340622BB9E2AE00BAEEB5 /* Joseph.swift in Sources */,
+				0E0340632BB9E2AE00BAEEB5 /* Ruth.swift in Sources */,
+				0E0340802BB9E54700BAEEB5 /* ManagerGameBoardView.swift in Sources */,
+				0E0340642BB9E2AE00BAEEB5 /* Places.swift in Sources */,
+				0E0340652BB9E2AE00BAEEB5 /* Creation.swift in Sources */,
+				0E0340662BB9E2AE00BAEEB5 /* BibleHeroes.swift in Sources */,
+				0E0340672BB9E2AE00BAEEB5 /* Category.swift in Sources */,
+				0E0340682BB9E2AE00BAEEB5 /* EndTimes.swift in Sources */,
+				0E0340692BB9E2AE00BAEEB5 /* GameManager.swift in Sources */,
+				0E03406A2BB9E2AE00BAEEB5 /* NameThatHymn.swift in Sources */,
+				0E03406B2BB9E2AE00BAEEB5 /* BeforeIsrael.swift in Sources */,
+				0E03406C2BB9E2AE00BAEEB5 /* AngelsAndDemons.swift in Sources */,
+				0E03406D2BB9E2AE00BAEEB5 /* Daniel.swift in Sources */,
+				0E03406E2BB9E2AE00BAEEB5 /* Exodus.swift in Sources */,
+				0E0340782BB9E3CC00BAEEB5 /* MultiSelectPickerView.swift in Sources */,
+				0E03406F2BB9E2AE00BAEEB5 /* BibleQuotes.swift in Sources */,
+				0E0340702BB9E2AE00BAEEB5 /* Prophesy.swift in Sources */,
+				0E0340712BB9E2AE00BAEEB5 /* Question.swift in Sources */,
+				0E0340722BB9E2AE00BAEEB5 /* GameSettings.swift in Sources */,
+				0E0340732BB9E2AE00BAEEB5 /* LifeOfJesus.swift in Sources */,
+				0E0340742BB9E2AE00BAEEB5 /* Esther.swift in Sources */,
 				0EDC194E2BADF229009DC360 /* Bible_Jeopardy__iPad_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +563,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -540,6 +627,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -570,6 +658,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Bible Jeopardy/Preview Content\"";
 				DEVELOPMENT_TEAM = 6G8ZYP2B49;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -599,6 +688,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Bible Jeopardy/Preview Content\"";
 				DEVELOPMENT_TEAM = 6G8ZYP2B49;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -635,8 +725,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -672,8 +761,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,13 +1,13 @@
 //
-//  ManagerGameBoardView.swift
-//  Mac Bible Jeopardy
+//  GameBoardView.swift
+//  Bible Jeopardy (iPad)
 //
-//  Created by Allen Wilson on 7/26/23.
+//  Created by Allen Wilson on 3/31/24.
 //
 
 import SwiftUI
 
-struct ManagerGameBoardView: View {
+struct GameBoardView: View {
     @StateObject var manager = GameManager.shared
     @StateObject var settings = GameSettings.shared
     
@@ -24,14 +24,12 @@ struct ManagerGameBoardView: View {
             HStack {
                 ForEach(categories) { category in
                     VStack {
-                        VStack {
-                            Text(category.rawValue.displayName)
-                                .font(.custom("Arial Rounded MT Bold", size: 18))
-                                .bold()
-                                .multilineTextAlignment(.center)
-                                .foregroundColor(.white)
-                        }
-                        .frame(minHeight: 60, idealHeight: 60, maxHeight: 100)
+                        Text(category.rawValue.displayName)
+                            .font(.custom("Arial Rounded MT Bold", size: 24))
+                            .bold()
+                            .multilineTextAlignment(.center)
+                            .foregroundColor(.white)
+                            .frame(minHeight: 60, idealHeight: 60, maxHeight: 100)
                         
                         ForEach(category.rawValue.questions) { question in
                             let x = categories.firstIndex(of: category)!
@@ -59,14 +57,12 @@ struct ManagerGameBoardView: View {
                             }, label: {
                                 ZStack {
                                     RoundedRectangle(cornerRadius: 10)
-                                        .foregroundColor(Color(red: 11 / 255, green: 37 / 255, blue: 191 / 255))
+                                        .foregroundStyle(manager.completed[x][y] ? Color.buttonDisabled : Color.accentColor)
                                     
-                                    if !manager.completed[x][y] {
-                                        Text(question.points == 1 ? "\(question.points)  talent" : "\(question.points)  talents")
-                                            .font(.custom("Arial Rounded MT Bold", size: 16))
-                                            .bold()
-                                            .foregroundColor(.white)
-                                    }
+                                    Text(question.points == 1 ? "\(question.points)  talent" : "\(question.points)  talents")
+                                        .font(.custom("Arial Rounded MT Bold", size: 24))
+                                        .bold()
+                                        .foregroundColor(manager.completed[x][y] ? .clear : .white)
                                 }
                             })
                             .disabled(manager.completed[x][y])
@@ -99,12 +95,12 @@ struct ManagerGameBoardView: View {
             }, label: {
                 ZStack {
                     RoundedRectangle(cornerRadius: 10)
-                        .foregroundColor(Color(red: 11 / 255, green: 37 / 255, blue: 191 / 255))
+                        .foregroundStyle(Color.accentColor)
                     
                     VStack {
                         if manager.currentIsHiddenTreasure {
                             Text("Hidden Treasue!")
-                                .font(.custom("Arial Rounded MT Bold", size: 24))
+                                .font(.custom("Arial Rounded MT Bold", size: 36))
                                 .bold()
                                 .foregroundColor(.white)
                                 .colorMultiply(manager.hiddenTreasureColor)
@@ -117,7 +113,7 @@ struct ManagerGameBoardView: View {
                         }
                         
                         Text(manager.currentQuestion!.text)
-                            .font(.custom("Arial Rounded MT Bold", size: 24))
+                            .font(.custom("Arial Rounded MT Bold", size: 36))
                             .bold()
                             .multilineTextAlignment(.leading)
                             .foregroundColor(.white)
@@ -126,35 +122,35 @@ struct ManagerGameBoardView: View {
                         Spacer()
                         
                         Text(manager.currentQuestion!.answer)
-                            .font(.custom("Arial Rounded MT Bold", size: 24))
+                            .font(.custom("Arial Rounded MT Bold", size: 36))
                             .bold()
                             .foregroundColor(.white)
-                            .opacity(manager.showingAnswer ? 1 : 0.5)
+                            .opacity(manager.showingAnswer ? 1 : 0)
                             .padding(10)
                         
                         Text(manager.currentQuestion!.points == 1 ? "1  talent" : "\(manager.currentQuestion!.points)  talents")
-                            .font(.custom("Arial Rounded MT Bold", size: 16))
+                            .font(.custom("Arial Rounded MT Bold", size: 24))
                             .bold()
                             .foregroundColor(.white)
-                            .opacity(manager.showingAnswer ? 1 : 0.5)
+                            .opacity(manager.showingAnswer ? 1 : 0)
                             .padding(.bottom, 30)
                     }
                 }
                 .aspectRatio(3 / 2, contentMode: .fit)
                 .padding()
             })
-            .buttonStyle(.plain)
+                .buttonStyle(.plain)
         }
     }
     
     func disableTap() {
         tapDisabled = true
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
             tapDisabled = false
         }
     }
 }
 
 #Preview {
-    ManagerGameBoardView(categories: [.angelsAndDemons1, .beforeIsrael, .bibleQuotes, .booksOfTheBible1, .creation, .davidAndSolomon])
+    GameBoardView(categories: [.angelsAndDemons1, .beforeIsrael, .bibleQuotes, .booksOfTheBible1, .creation, .davidAndSolomon])
 }

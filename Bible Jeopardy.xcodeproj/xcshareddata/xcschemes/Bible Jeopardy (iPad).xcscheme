@@ -4,7 +4,8 @@
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
-      buildImplicitDependencies = "YES">
+      buildImplicitDependencies = "YES"
+      buildArchitectures = "Automatic">
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -14,9 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0EAC2B2A2B5041340068C01D"
-               BuildableName = "Bible Jeopardy.app"
-               BlueprintName = "Bible Jeopardy"
+               BlueprintIdentifier = "0EDC194A2BADF229009DC360"
+               BuildableName = "Bible Jeopardy (iPad).app"
+               BlueprintName = "Bible Jeopardy (iPad)"
                ReferencedContainer = "container:Bible Jeopardy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -30,7 +31,7 @@
       shouldAutocreateTestPlan = "YES">
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -43,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0EAC2B2A2B5041340068C01D"
-            BuildableName = "Bible Jeopardy.app"
-            BlueprintName = "Bible Jeopardy"
+            BlueprintIdentifier = "0EDC194A2BADF229009DC360"
+            BuildableName = "Bible Jeopardy (iPad).app"
+            BlueprintName = "Bible Jeopardy (iPad)"
             ReferencedContainer = "container:Bible Jeopardy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -60,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0EAC2B2A2B5041340068C01D"
-            BuildableName = "Bible Jeopardy.app"
-            BlueprintName = "Bible Jeopardy"
+            BlueprintIdentifier = "0EDC194A2BADF229009DC360"
+            BuildableName = "Bible Jeopardy (iPad).app"
+            BlueprintName = "Bible Jeopardy (iPad)"
             ReferencedContainer = "container:Bible Jeopardy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
