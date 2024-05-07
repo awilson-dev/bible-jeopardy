@@ -46,8 +46,9 @@
 		0E0340742BB9E2AE00BAEEB5 /* Esther.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B5D2B5062BB0068C01D /* Esther.swift */; };
 		0E0340782BB9E3CC00BAEEB5 /* MultiSelectPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0340772BB9E3CC00BAEEB5 /* MultiSelectPickerView.swift */; };
 		0E03407C2BB9E41400BAEEB5 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E03407B2BB9E41400BAEEB5 /* TitleView.swift */; };
-		0E03407E2BB9E52400BAEEB5 /* ManagerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E03407D2BB9E52400BAEEB5 /* ManagerContentView.swift */; };
-		0E0340802BB9E54700BAEEB5 /* ManagerGameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E03407F2BB9E54700BAEEB5 /* ManagerGameBoardView.swift */; };
+		0E03407E2BB9E52400BAEEB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E03407D2BB9E52400BAEEB5 /* ContentView.swift */; };
+		0E0340802BB9E54700BAEEB5 /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E03407F2BB9E54700BAEEB5 /* GameBoardView.swift */; };
+		0E392B552BEAC6CB00503992 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E392B542BEAC6CB00503992 /* SettingsView.swift */; };
 		0EAC2B362B5041350068C01D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC2B352B5041350068C01D /* Preview Assets.xcassets */; };
 		0EAC2B452B5062610068C01D /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B3D2B5062600068C01D /* GameBoardView.swift */; };
 		0EAC2B462B5062610068C01D /* SelectedCategoriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC2B3E2B5062600068C01D /* SelectedCategoriesListView.swift */; };
@@ -103,8 +104,9 @@
 /* Begin PBXFileReference section */
 		0E0340772BB9E3CC00BAEEB5 /* MultiSelectPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectPickerView.swift; sourceTree = "<group>"; };
 		0E03407B2BB9E41400BAEEB5 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
-		0E03407D2BB9E52400BAEEB5 /* ManagerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerContentView.swift; sourceTree = "<group>"; };
-		0E03407F2BB9E54700BAEEB5 /* ManagerGameBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerGameBoardView.swift; sourceTree = "<group>"; };
+		0E03407D2BB9E52400BAEEB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0E03407F2BB9E54700BAEEB5 /* GameBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
+		0E392B542BEAC6CB00503992 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		0EAC2B2B2B5041340068C01D /* Bible Jeopardy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bible Jeopardy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EAC2B352B5041350068C01D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0EAC2B372B5041350068C01D /* Bible_Jeopardy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bible_Jeopardy.entitlements; sourceTree = "<group>"; };
@@ -311,10 +313,11 @@
 			isa = PBXGroup;
 			children = (
 				0EDC194D2BADF229009DC360 /* Bible_Jeopardy__iPad_App.swift */,
-				0E03407D2BB9E52400BAEEB5 /* ManagerContentView.swift */,
-				0E03407F2BB9E54700BAEEB5 /* ManagerGameBoardView.swift */,
+				0E03407D2BB9E52400BAEEB5 /* ContentView.swift */,
+				0E03407F2BB9E54700BAEEB5 /* GameBoardView.swift */,
 				0E0340772BB9E3CC00BAEEB5 /* MultiSelectPickerView.swift */,
 				0E03407B2BB9E41400BAEEB5 /* TitleView.swift */,
+				0E392B542BEAC6CB00503992 /* SettingsView.swift */,
 				0EDC19512BADF22A009DC360 /* Assets.xcassets */,
 				0EDC19532BADF22A009DC360 /* Preview Content */,
 			);
@@ -496,14 +499,14 @@
 				0E03405C2BB9E2AE00BAEEB5 /* Hymn.swift in Sources */,
 				0E03405D2BB9E2AE00BAEEB5 /* BooksOfTheBible.swift in Sources */,
 				0E03405E2BB9E2AE00BAEEB5 /* Miracles.swift in Sources */,
-				0E03407E2BB9E52400BAEEB5 /* ManagerContentView.swift in Sources */,
+				0E03407E2BB9E52400BAEEB5 /* ContentView.swift in Sources */,
 				0E03405F2BB9E2AE00BAEEB5 /* Israel.swift in Sources */,
 				0E03407C2BB9E41400BAEEB5 /* TitleView.swift in Sources */,
 				0E0340602BB9E2AE00BAEEB5 /* NewTestament.swift in Sources */,
 				0E0340612BB9E2AE00BAEEB5 /* DavidAndSolomon.swift in Sources */,
 				0E0340622BB9E2AE00BAEEB5 /* Joseph.swift in Sources */,
 				0E0340632BB9E2AE00BAEEB5 /* Ruth.swift in Sources */,
-				0E0340802BB9E54700BAEEB5 /* ManagerGameBoardView.swift in Sources */,
+				0E0340802BB9E54700BAEEB5 /* GameBoardView.swift in Sources */,
 				0E0340642BB9E2AE00BAEEB5 /* Places.swift in Sources */,
 				0E0340652BB9E2AE00BAEEB5 /* Creation.swift in Sources */,
 				0E0340662BB9E2AE00BAEEB5 /* BibleHeroes.swift in Sources */,
@@ -522,6 +525,7 @@
 				0E0340722BB9E2AE00BAEEB5 /* GameSettings.swift in Sources */,
 				0E0340732BB9E2AE00BAEEB5 /* LifeOfJesus.swift in Sources */,
 				0E0340742BB9E2AE00BAEEB5 /* Esther.swift in Sources */,
+				0E392B552BEAC6CB00503992 /* SettingsView.swift in Sources */,
 				0EDC194E2BADF229009DC360 /* Bible_Jeopardy__iPad_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -725,6 +729,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -761,6 +766,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (

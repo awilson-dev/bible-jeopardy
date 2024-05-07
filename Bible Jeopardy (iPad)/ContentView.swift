@@ -13,6 +13,7 @@ struct ContentView: View {
     
     @State var reset = false
     @State var newGame = false
+    @State var showSettings = false
     
     var body: some View {
         ZStack {
@@ -80,6 +81,21 @@ struct ContentView: View {
                                 Spacer()
                                 
                                 Button(action: {
+                                    showSettings = true
+                                }, label: {
+                                    ZStack {
+                                        RoundedRectangle(cornerRadius: 10)
+                                            .foregroundColor(Color.gray)
+                                            .frame(width: 120, height: 50)
+                                        
+                                        Text("Settings")
+                                            .font(.custom("Arial Rounded MT Bold", size: 20))
+                                            .bold()
+                                            .foregroundColor(.white)
+                                    }
+                                })
+                                
+                                Button(action: {
                                     reset = true
                                 }, label: {
                                     ZStack {
@@ -126,6 +142,11 @@ struct ContentView: View {
                         reset = false
                     }
                     .keyboardShortcut(.cancelAction)
+                }
+                .sheet(isPresented: $showSettings) {
+                    SettingsView()
+                        .presentationBackground(.clear)
+                        .presentationDetents([.medium])
                 }
             } else {
                 VStack {
