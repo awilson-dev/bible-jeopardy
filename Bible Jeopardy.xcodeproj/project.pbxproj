@@ -156,7 +156,7 @@
 		0EAC2B732B5062BB0068C01D /* theLordIsMyShepherd.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = theLordIsMyShepherd.mp3; sourceTree = "<group>"; };
 		0EAC2B752B5062BB0068C01D /* achievementChime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = achievementChime.mp3; sourceTree = "<group>"; };
 		0EAC2B9A2B5062EB0068C01D /* Bible_JeopardyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bible_JeopardyApp.swift; sourceTree = "<group>"; };
-		0EDC194B2BADF229009DC360 /* Bible Jeopardy (iPad).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bible Jeopardy (iPad).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EDC194B2BADF229009DC360 /* Bible Jeopardy - iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bible Jeopardy - iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EDC194D2BADF229009DC360 /* Bible_Jeopardy__iPad_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bible_Jeopardy__iPad_App.swift; sourceTree = "<group>"; };
 		0EDC19512BADF22A009DC360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EDC19542BADF22A009DC360 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -184,7 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				0EAC2B2D2B5041340068C01D /* Bible Jeopardy */,
-				0EDC194C2BADF229009DC360 /* Bible Jeopardy (iPad) */,
+				0EDC194C2BADF229009DC360 /* Bible Jeopardy - iPad */,
 				0EAC2B2C2B5041340068C01D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -193,7 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				0EAC2B2B2B5041340068C01D /* Bible Jeopardy.app */,
-				0EDC194B2BADF229009DC360 /* Bible Jeopardy (iPad).app */,
+				0EDC194B2BADF229009DC360 /* Bible Jeopardy - iPad.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -309,7 +309,7 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		0EDC194C2BADF229009DC360 /* Bible Jeopardy (iPad) */ = {
+		0EDC194C2BADF229009DC360 /* Bible Jeopardy - iPad */ = {
 			isa = PBXGroup;
 			children = (
 				0EDC194D2BADF229009DC360 /* Bible_Jeopardy__iPad_App.swift */,
@@ -321,7 +321,7 @@
 				0EDC19512BADF22A009DC360 /* Assets.xcassets */,
 				0EDC19532BADF22A009DC360 /* Preview Content */,
 			);
-			path = "Bible Jeopardy (iPad)";
+			path = "Bible Jeopardy - iPad";
 			sourceTree = "<group>";
 		};
 		0EDC19532BADF22A009DC360 /* Preview Content */ = {
@@ -352,9 +352,9 @@
 			productReference = 0EAC2B2B2B5041340068C01D /* Bible Jeopardy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0EDC194A2BADF229009DC360 /* Bible Jeopardy (iPad) */ = {
+		0EDC194A2BADF229009DC360 /* Bible Jeopardy - iPad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0EDC19582BADF22A009DC360 /* Build configuration list for PBXNativeTarget "Bible Jeopardy (iPad)" */;
+			buildConfigurationList = 0EDC19582BADF22A009DC360 /* Build configuration list for PBXNativeTarget "Bible Jeopardy - iPad" */;
 			buildPhases = (
 				0EDC19472BADF229009DC360 /* Sources */,
 				0EDC19482BADF229009DC360 /* Frameworks */,
@@ -364,9 +364,9 @@
 			);
 			dependencies = (
 			);
-			name = "Bible Jeopardy (iPad)";
+			name = "Bible Jeopardy - iPad";
 			productName = "Bible Jeopardy (iPad)";
-			productReference = 0EDC194B2BADF229009DC360 /* Bible Jeopardy (iPad).app */;
+			productReference = 0EDC194B2BADF229009DC360 /* Bible Jeopardy - iPad.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -401,7 +401,7 @@
 			projectRoot = "";
 			targets = (
 				0EAC2B2A2B5041340068C01D /* Bible Jeopardy */,
-				0EDC194A2BADF229009DC360 /* Bible Jeopardy (iPad) */,
+				0EDC194A2BADF229009DC360 /* Bible Jeopardy - iPad */,
 			);
 		};
 /* End PBXProject section */
@@ -720,7 +720,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Bible Jeopardy (iPad)/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Bible Jeopardy - iPad/Preview Content\"";
 				DEVELOPMENT_TEAM = 6G8ZYP2B49;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -746,7 +746,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -757,7 +757,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Bible Jeopardy (iPad)/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Bible Jeopardy - iPad/Preview Content\"";
 				DEVELOPMENT_TEAM = 6G8ZYP2B49;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -783,7 +783,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -809,7 +809,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0EDC19582BADF22A009DC360 /* Build configuration list for PBXNativeTarget "Bible Jeopardy (iPad)" */ = {
+		0EDC19582BADF22A009DC360 /* Build configuration list for PBXNativeTarget "Bible Jeopardy - iPad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0EDC19562BADF22A009DC360 /* Debug */,

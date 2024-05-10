@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0EDC194A2BADF229009DC360"
-               BuildableName = "Bible Jeopardy (iPad).app"
-               BlueprintName = "Bible Jeopardy (iPad)"
+               BuildableName = "Bible Jeopardy - iPad.app"
+               BlueprintName = "Bible Jeopardy - iPad"
                ReferencedContainer = "container:Bible Jeopardy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0EDC194A2BADF229009DC360"
-            BuildableName = "Bible Jeopardy (iPad).app"
-            BlueprintName = "Bible Jeopardy (iPad)"
+            BuildableName = "Bible Jeopardy - iPad.app"
+            BlueprintName = "Bible Jeopardy - iPad"
             ReferencedContainer = "container:Bible Jeopardy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0EDC194A2BADF229009DC360"
-            BuildableName = "Bible Jeopardy (iPad).app"
-            BlueprintName = "Bible Jeopardy (iPad)"
+            BuildableName = "Bible Jeopardy - iPad.app"
+            BlueprintName = "Bible Jeopardy - iPad"
             ReferencedContainer = "container:Bible Jeopardy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
