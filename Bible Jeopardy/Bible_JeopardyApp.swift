@@ -22,11 +22,17 @@ struct Bible_JeopardyApp: App {
                 }
         }
         
+<<<<<<< HEAD
 #if os(macOS)
         Window("Game Manager", id: "game_manager") {
             ManagerContentView()
         }
 #endif
+=======
+        Window("Game Manager", id: "game_manager") {
+            ManagerContentView()
+        }
+>>>>>>> main
         
         Settings {
             VStack {
